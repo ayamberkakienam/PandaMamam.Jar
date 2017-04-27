@@ -10,34 +10,58 @@ namespace XmlParser
     {
         static void Main(string[] args)
         {
+            string inpit = Console.ReadLine();
+            string url = null;
             XmlDocument doc =  new XmlDocument();
-            doc.Load("http://rss.detik.com/index.php/detikcom");
-            XmlNode node = doc.DocumentElement.SelectSingleNode("/rss/channel");
 
-            foreach (XmlNode item in node)
+            switch (inpit)
             {
-                XmlNode titleNode = item.SelectSingleNode("title");
-                XmlNode urlNode = item.SelectSingleNode("link");
+                case "detik":
+                    {
+                        url = "http://rss.detik.com/index.php/detikcom";
+                    }
+                    break;
+                case "tempo":
+                    {
+                        url = "https://www.tempo.co/rss/terkini";
+                    }
+                    break;
 
-                if (titleNode != null && urlNode != null && item.Name == "item")
-                {
-                    string title = titleNode.InnerText;
-                    string url = urlNode.InnerText;
-                      
-                    Console.WriteLine(title);
-                    Console.WriteLine(url);
-                }
-                else
-                {
-                    Console.WriteLine("node: null");
-                }
+                case "antaranews":
+                    {
+                        url = "http://www.antaranews.com/rss/terkini";
+                    }
+                    break;
 
-                Console.WriteLine();
-                // node = node.NextSibling;
+                case "vivanews":
+                    {
+                        url = "http://rss.viva.co.id/get/all";
+                    }
+                    break;
+                default:
+                    {
+                        url = "url NULL";
+                    }
+                    break;
             }
 
-            string str = Console.ReadLine();
-            Console.WriteLine(str);
+            if (url != "url NULL")
+            {
+                doc.Load(url);
+                XmlNodeList crawlResult = doc.GetElementsByTagName("item");
+                foreach (XmlNode item in crawlResult)
+                {
+                    Console.WriteLine(item.SelectSingleNode("title").InnerText);
+                    Console.WriteLine(item.SelectSingleNode("link").InnerText);
+                    Console.WriteLine();
+                }
+            }
+            else
+            {
+                Console.WriteLine(url);
+            }
+
+            Console.ReadKey();
         }
     }
 }

@@ -43,11 +43,6 @@ namespace HtmlParserPrototype
                         text = Regex.Replace(text, "&nbsp;", " ");
                         Console.WriteLine(text);
                     }
-                    
-                    //foreach (HtmlNode paragraph in kontenBerita)
-                    //{
-                    //    paragraph.SelectNodes("//a" | );
-                    //}
                 }
             }
 
