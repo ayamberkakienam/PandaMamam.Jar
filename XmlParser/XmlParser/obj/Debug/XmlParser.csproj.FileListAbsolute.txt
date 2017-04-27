@@ -1,0 +1,12 @@
+C:\Users\WINDOWS\AppData\Local\Temporary Projects\XmlParser\bin\Debug\XmlParser.exe
+C:\Users\WINDOWS\AppData\Local\Temporary Projects\XmlParser\bin\Debug\XmlParser.pdb
+C:\Users\WINDOWS\AppData\Local\Temporary Projects\XmlParser\obj\Debug\XmlParser.csprojResolveAssemblyReference.cache
+C:\Users\WINDOWS\AppData\Local\Temporary Projects\XmlParser\obj\Debug\XmlParser.exe
+C:\Users\WINDOWS\AppData\Local\Temporary Projects\XmlParser\obj\Debug\XmlParser.pdb
+C:\Users\WINDOWS\AppData\Local\Temporary Projects\XmlParser\bin\Debug\www.tempo.co.xml
+C:\Users\WINDOWS\Documents\!KULIAH!\ITB\STIMA\Tubes 3\XmlParser\XmlParser\obj\Debug\XmlParser.exe
+C:\Users\WINDOWS\Documents\!KULIAH!\ITB\STIMA\Tubes 3\XmlParser\XmlParser\obj\Debug\XmlParser.pdb
+C:\Users\WINDOWS\Documents\!KULIAH!\ITB\STIMA\Tubes 3\XmlParser\XmlParser\bin\Debug\www.tempo.co.xml
+C:\Users\WINDOWS\Documents\!KULIAH!\ITB\STIMA\Tubes 3\XmlParser\XmlParser\bin\Debug\XmlParser.exe
+C:\Users\WINDOWS\Documents\!KULIAH!\ITB\STIMA\Tubes 3\XmlParser\XmlParser\bin\Debug\XmlParser.pdb
+C:\Users\WINDOWS\Documents\!KULIAH!\ITB\STIMA\Tubes 3\XmlParser\XmlParser\obj\Debug\XmlParser.csprojResolveAssemblyReference.cache
