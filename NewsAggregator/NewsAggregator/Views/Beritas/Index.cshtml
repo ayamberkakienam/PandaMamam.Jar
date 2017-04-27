@@ -1,0 +1,62 @@
+@model IEnumerable<NewsAggregator.Models.Berita>
+
+@{
+    ViewData["Title"] = "Index";
+}
+<link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+<h2>Lakukan Pencarian Berita di Sini</h2>
+
+@*<p>
+    <a asp-action="Create">Create New</a>
+</p>*@
+<form asp-controller="Beritas" asp-action="Index">
+    <p>
+        Content: <input type="text" name="id">
+        <input type="submit" value="Filter" />
+    </p>
+    <p>
+        <input type="radio" value="1" name="algo"> KMP
+    </p>
+    <p>
+        <input type="radio" value="2" name="algo"> Booye Moore
+    </p>
+    <p>
+        <input type="radio" value="3" name="algo"> Regular Expression
+    </p>
+</form>
+<table class="table" border="0">
+    <thead>
+        @*<tr>
+            <th>
+                @Html.DisplayNameFor(model => model.link)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.title)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.content)
+            </th>
+            <th></th>
+        </tr>*@
+        <tr>
+            <th>
+                <h4>Hasil Pencarian Berita</h4>
+            </th>
+        </tr>
+    </thead>
+</table>   
+<ul> 
+@foreach (var item in Model) {
+        <li>
+            <p>
+                <a href=@Html.DisplayFor(modelItem => item.link)>@Html.DisplayFor(modelItem => item.title)</a>
+            </p>
+            <p>
+                @Html.DisplayFor(modelItem => item.content)
+            </p>
+        </li>
+}
+</ul>
+    
+
+

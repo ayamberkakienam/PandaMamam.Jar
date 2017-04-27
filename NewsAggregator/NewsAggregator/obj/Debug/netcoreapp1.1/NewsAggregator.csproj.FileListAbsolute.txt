@@ -1,0 +1,9 @@
+C:\Users\Rahman\Documents\Visual Studio 2017\Projects\NewsAggregator\NewsAggregator\bin\Debug\netcoreapp1.1\NewsAggregator.deps.json
+C:\Users\Rahman\Documents\Visual Studio 2017\Projects\NewsAggregator\NewsAggregator\bin\Debug\netcoreapp1.1\NewsAggregator.runtimeconfig.json
+C:\Users\Rahman\Documents\Visual Studio 2017\Projects\NewsAggregator\NewsAggregator\bin\Debug\netcoreapp1.1\NewsAggregator.runtimeconfig.dev.json
+C:\Users\Rahman\Documents\Visual Studio 2017\Projects\NewsAggregator\NewsAggregator\bin\Debug\netcoreapp1.1\NewsAggregator.dll
+C:\Users\Rahman\Documents\Visual Studio 2017\Projects\NewsAggregator\NewsAggregator\bin\Debug\netcoreapp1.1\NewsAggregator.pdb
+C:\Users\Rahman\Documents\Visual Studio 2017\Projects\NewsAggregator\NewsAggregator\obj\Debug\netcoreapp1.1\NewsAggregator.AssemblyInfo.cs
+C:\Users\Rahman\Documents\Visual Studio 2017\Projects\NewsAggregator\NewsAggregator\obj\Debug\netcoreapp1.1\NewsAggregator.dll
+C:\Users\Rahman\Documents\Visual Studio 2017\Projects\NewsAggregator\NewsAggregator\obj\Debug\netcoreapp1.1\NewsAggregator.pdb
+C:\Users\Rahman\Documents\Visual Studio 2017\Projects\NewsAggregator\NewsAggregator\obj\Debug\netcoreapp1.1\NewsAggregator.csprojResolveAssemblyReference.cache
