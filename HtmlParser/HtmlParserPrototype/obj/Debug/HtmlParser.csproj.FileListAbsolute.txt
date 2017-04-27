@@ -1,0 +1,8 @@
+C:\Users\WINDOWS\Documents\!KULIAH!\ITB\STIMA\Tubes 3\HtmlParser\HtmlParserPrototype\obj\Debug\HtmlParserPrototype.exe
+C:\Users\WINDOWS\Documents\!KULIAH!\ITB\STIMA\Tubes 3\HtmlParser\HtmlParserPrototype\obj\Debug\HtmlParserPrototype.pdb
+C:\Users\WINDOWS\Documents\!KULIAH!\ITB\STIMA\Tubes 3\HtmlParser\HtmlParserPrototype\bin\Debug\HtmlParserPrototype.exe
+C:\Users\WINDOWS\Documents\!KULIAH!\ITB\STIMA\Tubes 3\HtmlParser\HtmlParserPrototype\bin\Debug\HtmlParserPrototype.pdb
+C:\Users\WINDOWS\Documents\!KULIAH!\ITB\STIMA\Tubes 3\HtmlParser\HtmlParserPrototype\bin\Debug\HtmlAgilityPack.dll
+C:\Users\WINDOWS\Documents\!KULIAH!\ITB\STIMA\Tubes 3\HtmlParser\HtmlParserPrototype\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\WINDOWS\Documents\!KULIAH!\ITB\STIMA\Tubes 3\HtmlParser\HtmlParserPrototype\bin\Debug\HtmlAgilityPack.xml
+C:\Users\WINDOWS\Documents\!KULIAH!\ITB\STIMA\Tubes 3\HtmlParser\HtmlParserPrototype\obj\Debug\HtmlParser.csprojResolveAssemblyReference.cache

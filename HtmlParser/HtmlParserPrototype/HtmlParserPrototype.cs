@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using HtmlAgilityPack;
 
 namespace HtmlParserPrototype
@@ -28,9 +29,25 @@ namespace HtmlParserPrototype
                 else
                 {
                     HtmlNodeCollection kontenBerita = artikel.SelectNodes("//p");
-                    foreach (HtmlNode para in kontenBerita) {
-                        Console.WriteLine(para.InnerText);
+                    foreach (HtmlNode paragraph in kontenBerita) {
+                        HtmlNodeCollection toRemove = paragraph.SelectNodes("//a | //strong");
+                        if (toRemove != null)
+                        {
+                            foreach (var node in toRemove)
+                            {
+                                node.Remove();
+                            }
+                        }
+
+                        string text = paragraph.InnerText;
+                        text = Regex.Replace(text, "&nbsp;", " ");
+                        Console.WriteLine(text);
                     }
+                    
+                    //foreach (HtmlNode paragraph in kontenBerita)
+                    //{
+                    //    paragraph.SelectNodes("//a" | );
+                    //}
                 }
             }
 
